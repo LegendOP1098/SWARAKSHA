@@ -1,19 +1,10 @@
 import { Box } from "../components/Box"
+import { Navbar } from "../components/Navbar"
 
 export function HomePage(){
       return (
             <>
-                  <div className="h-14 flex justify-between items-center">
-                        <h1 className="text-2xl font-bold p-10"> Protect Her</h1>
-                        <div>
-                              <a className="m-5" href="#">Home</a> 
-                              <a className="m-5" href="#">Features</a> 
-                              <a className="m-5" href="#">Real Time Analysis</a> 
-                              <a className="m-5" href="#">Sarthi</a>
-                              <a className="m-5" href="#">Contact</a> 
-                        </div>
-                  </div>
-
+                  <Navbar/>
                   <div className="flex flex-col bg-slate-600 h-[706px] justify-center">
                         <h1 className="text-5xl text-center my-2">Ensuring Safety for Women Everywhere</h1>
                         <p className="text-2xl text-center my-8">Our technology provides real-time detection and analytics to keep urban spaces safe for women.</p>
